@@ -1,5 +1,13 @@
 {
+    "welcome": "TheMasterCollection",
+    "message": "The portfolio page of TheMasterCollection products is under construction at the moment! Check back later :)",
     "changeLanguage": "Change language",
     "changeMode": "Change mode",
-    "imprint_nav": "Imprint"
+    "footer.products": "Products",
+    "footer.team": "Our Team",
+    "footer.about": "About us",
+    "footer.imprint": "Imprint",
+    "footer.info": "Informations",
+    "footer.contact": "Contact us",
+    "footer.credits": "Credits"
 }

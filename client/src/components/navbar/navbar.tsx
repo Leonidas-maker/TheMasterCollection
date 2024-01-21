@@ -1,6 +1,5 @@
 import DarkModeSwitch from "./buttons/btnDarkModeSwitch";
 import ChangeLng from "./buttons/btnChangeLng";
-import Imprint from "./buttons/btnImprint";
 
 const Navbar = () => {
     return (
@@ -8,7 +7,6 @@ const Navbar = () => {
             
             <DarkModeSwitch />
             <ChangeLng />
-            <Imprint />
         </div>
     );
 };

@@ -1,5 +1,13 @@
 {
+    "welcome": "TheMasterCollection",
+    "message": "Hier entsteht aktuell die Portfolio Seite der TheMasterCollection Produkte! Schau später nochmal vorbei :)",
     "changeLanguage": "Sprache ändern",
     "changeMode": "Modus wechseln",
-    "imprint_nav": "Impressum"
+    "footer.products": "Produkte",
+    "footer.team": "Unser Team",
+    "footer.about": "Über uns",
+    "footer.imprint": "Impressum",
+    "footer.info": "Informationen",
+    "footer.contact": "Kontaktiere uns",
+    "footer.credits": "Credits"
 }

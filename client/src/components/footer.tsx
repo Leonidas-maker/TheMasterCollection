@@ -37,7 +37,7 @@ export function Footer() {
 
   return (
     <footer className="relative w-full dark:bg-gray-600">
-      <div className="mx-auto w-full max-w-7xl px-8">
+      <div className="mx-auto w-full max-w-7xl px-8 mt-10">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <Typography variant="h5" className="mb-6" placeholder={""}>
             <a href="https://themastercollection.de">TheMasterCollection</a>

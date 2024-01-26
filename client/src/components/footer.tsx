@@ -36,10 +36,10 @@ export function Footer() {
   ];
 
   return (
-    <footer className="relative w-full dark:bg-gray-600">
-      <div className="mx-auto w-full max-w-7xl px-8 mt-10">
+    <footer className="relative w-full dark:bg-gray-900 pt-10">
+      <div className="mx-auto w-full max-w-7xl px-8">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
-          <Typography variant="h5" className="mb-6" placeholder={""}>
+          <Typography variant="h5" className="mb-6 dark:text-white" placeholder={""}>
             <a href="https://themastercollection.de">TheMasterCollection</a>
           </Typography>
           <div className="grid grid-cols-3 justify-between gap-4">
@@ -48,8 +48,7 @@ export function Footer() {
                 <Typography
                   placeholder={""}
                   variant="small"
-                  color="blue-gray"
-                  className="mb-3 font-medium opacity-40"
+                  className="mb-3 font-medium opacity-40 text-gray-600 dark:text-gray-300"
                 >
                   {title}
                 </Typography>
@@ -61,8 +60,7 @@ export function Footer() {
                       href={url}
                       target={isExternalLink(url) ? "_blank" : undefined}
                       rel={isExternalLink(url) ? "noopener noreferrer" : undefined}
-                      color="gray"
-                      className="py-1.5 font-normal transition-colors hover:text-blue-gray-900"
+                      className="py-1.5 font-normal transition-colors hover:text-gray-900 dark:hover:text-gray-400 text-gray-700 dark:text-gray-200"
                     >
                       {text}
                     </Typography>
@@ -72,11 +70,11 @@ export function Footer() {
             ))}
           </div>
         </div>
-        <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
+        <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between dark:border-gray-800">
           <Typography
             placeholder={""}
             variant="small"
-            className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
+            className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0 dark:text-white"
           >
             &copy; {currentYear} <a href="https://themastercollection.de">TheMasterCollection</a>.
           </Typography>

@@ -1,13 +1,21 @@
 {
-    "welcome": "TheMasterCollection",
-    "message": "The portfolio page of TheMasterCollection products is under construction at the moment! Check back later :)",
     "changeLanguage": "Change language",
     "changeMode": "Change mode",
+    "back": "Back",
     "footer.products": "Products",
     "footer.team": "Our Team",
     "footer.about": "About us",
     "footer.imprint": "Imprint",
     "footer.info": "Informations",
     "footer.contact": "Contact us",
-    "footer.credits": "Credits"
+    "footer.credits": "Credits",
+    "contact.contact": "Contact us",
+    "contact.text": "Got a question? Found a bug? Want to talk to us? Write us a message!",
+    "contact.yourmessage": "Your Email",
+    "contact.placemail": "name@mail.de",
+    "contact.subject": "Subject",
+    "contact.placesubject": "Short description",
+    "contact.message": "Your message",
+    "contact.placemessage": "Write your message here...",
+    "contact.send": "Send"
 }

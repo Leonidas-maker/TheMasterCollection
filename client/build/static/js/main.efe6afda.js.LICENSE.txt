@@ -65,3 +65,5 @@
  *
  * @license MIT
  */
+
+//! Add function to send a mail to us

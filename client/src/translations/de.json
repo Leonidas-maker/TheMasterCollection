@@ -1,13 +1,21 @@
 {
-    "welcome": "TheMasterCollection",
-    "message": "Hier entsteht aktuell die Portfolio Seite der TheMasterCollection Produkte! Schau später nochmal vorbei :)",
     "changeLanguage": "Sprache ändern",
     "changeMode": "Modus wechseln",
+    "back": "Zurück",
     "footer.products": "Produkte",
     "footer.team": "Unser Team",
     "footer.about": "Über uns",
     "footer.imprint": "Impressum",
     "footer.info": "Informationen",
     "footer.contact": "Kontaktiere uns",
-    "footer.credits": "Credits"
+    "footer.credits": "Credits",
+    "contact.contact": "Kontaktiere uns",
+    "contact.text": "Eine Frage? Einen Bug gefunden? Du möchtest mit uns sprechen? Schreibe uns eine Nachricht!",
+    "contact.yourmessage": "Deine Email",
+    "contact.placemail": "name@mail.de",
+    "contact.subject": "Betreff",
+    "contact.placesubject": "Eine kurze Beschreibung",
+    "contact.message": "Deine Nachricht",
+    "contact.placemessage": "Schreibe deine Nachricht hier...",
+    "contact.send": "Senden"
 }

@@ -29,24 +29,44 @@ export function CarouselProducts() {
                     </div>
                 )}
             >
-                <img
-                    src="/logos/big/TheShopMasterBig.png"
-                    alt="TheShopMaster"
-                    className="h-full w-full object-cover"
-                    onClick={() => setShopMasterPopupOpen(true)}
-                />
-                <img
-                    src="/logos/big/TheRouteMasterBig.png"
-                    alt="TheRouteMaster"
-                    className="h-full w-full object-cover"
-                    onClick={() => setRouteMasterPopupOpen(true)}
-                />
-                <img
-                    src="/logos/big/TheMasterCollectionBig.png"
-                    alt="TheMasterCollection"
-                    className="h-full w-full object-cover"
-                    onClick={() => setMasterCollectionPopupOpen(true)}
-                />
+                <div className="h-full w-full object-cover" onClick={() => setShopMasterPopupOpen(true)}>
+                    <img
+                        src="/logos/big/TheShopMasterBig.png"
+                        alt="TheShopMaster"
+                        className="hidden md:block md:h-full md:w-full md:object-cover"
+                    />
+                    <img
+                        src="/logos/mobile/TheShopMasterMobile.png"
+                        alt="TheShopMaster"
+                        className="block md:hidden h-full w-full object-cover"
+                    />
+                </div>
+
+                <div className="h-full w-full object-cover" onClick={() => setRouteMasterPopupOpen(true)}>
+                    <img
+                        src="/logos/big/TheRouteMasterBig.png"
+                        alt="TheRouteMaster"
+                        className="hidden md:block md:h-full md:w-full md:object-cover"
+                    />
+                    <img
+                        src="/logos/mobile/TheRouteMasterMobile.png"
+                        alt="TheRouteMaster"
+                        className="block md:hidden h-full w-full object-cover"
+                    />
+                </div>
+
+                <div className="h-full w-full object-cover" onClick={() => setMasterCollectionPopupOpen(true)}>
+                    <img
+                        src="/logos/big/TheMasterCollectionBig.png"
+                        alt="TheMasterCollection"
+                        className="hidden md:block md:h-full md:w-full md:object-cover"
+                    />
+                    <img
+                        src="/logos/mobile/TheMasterCollectionMobile.png"
+                        alt="TheMasterCollection"
+                        className="block md:hidden h-full w-full object-cover"
+                    />
+                </div>
             </Carousel>
             <TheShopMasterPopup open={isShopMasterPopupOpen} setOpen={setShopMasterPopupOpen} />
             <TheRouteMasterPopup open={isRouteMasterPopupOpen} setOpen={setRouteMasterPopupOpen} />

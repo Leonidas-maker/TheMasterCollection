@@ -44,10 +44,10 @@ export function TheRouteMasterPopup({ open, setOpen }: TheRouteMasterPopupProps)
                 <DialogBody placeholder={""} className="text-gray-800 dark:text-gray-200">
                     {t('route.text')}
                     <p>{t('route.dev')} <a className="underline" href="https://github.com/Schuetze1000" target="_blank" rel="noopener noreferrer">@Schuetze1000</a> | <a className="underline" href="https://github.com/Leonidas-maker" target="_blank" rel="noopener noreferrer">@Leonidas-maker</a></p>
-                    <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
+                    <div className="flex flex-wrap justify-center mt-5">
                         <Button
                             placeholder={""}
-                            className="text-white mr-8 hover:opacity-80"
+                            className="text-white hover:opacity-80 mr-4 mb-4"
                             style={{ backgroundColor: '#333' }}
                             onClick={goToGitHub}
                         >
@@ -57,7 +57,7 @@ export function TheRouteMasterPopup({ open, setOpen }: TheRouteMasterPopupProps)
                         </Button>
                         <Button
                             placeholder={""}
-                            className="text-white mr-8 hover:opacity-80"
+                            className="text-white hover:opacity-80 mr-4 mb-4"
                             style={{ backgroundColor: '#FC6D26' }}
                             onClick={goToGitLab}
                         >
@@ -67,7 +67,7 @@ export function TheRouteMasterPopup({ open, setOpen }: TheRouteMasterPopupProps)
                         </Button>
                         <Button
                             placeholder={""}
-                            className="text-white mr-8 hover:opacity-80"
+                            className="text-white hover:opacity-80 mr-4 mb-4"
                             style={{ backgroundColor: '#0A66C2' }}
                             onClick={goToWebsite}
                         >

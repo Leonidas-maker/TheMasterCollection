@@ -53,10 +53,10 @@ export function TheShopMasterPopup({ open, setOpen }: TheShopMasterPopupProps) {
                 <DialogBody placeholder={""} className="text-gray-800 dark:text-gray-200">
                     {t('shop.text')}
                     <p>{t('shop.dev')} <a className="underline" href="https://github.com/Schuetze1000" target="_blank" rel="noopener noreferrer">@Schuetze1000</a> | <a className="underline" href="https://github.com/Leonidas-maker" target="_blank" rel="noopener noreferrer">@Leonidas-maker</a> | <a className="underline" href="https://github.com/xxchillkroetexx" target="_blank" rel="noopener noreferrer">@xxchillkroetexx</a> | <a className="underline" href="https://github.com/MrRapGamer" target="_blank" rel="noopener noreferrer">@MrRapGamer</a> | <a className="underline" href="https://github.com/Kasi07" target="_blank" rel="noopener noreferrer">@Kasi07</a> | <a className="underline" href="https://github.com/AmateReysu" target="_blank" rel="noopener noreferrer">@AmateReysu</a></p>
-                    <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
+                    <div className="flex flex-wrap justify-center mt-5">
                         <Button
                             placeholder={""}
-                            className="text-white mr-8 hover:opacity-80"
+                            className="text-white hover:opacity-80 mr-4 mb-4"
                             style={{ backgroundColor: '#333' }}
                             onClick={goToGitHub}
                         >
@@ -66,7 +66,7 @@ export function TheShopMasterPopup({ open, setOpen }: TheShopMasterPopupProps) {
                         </Button>
                         <Button
                             placeholder={""}
-                            className="text-white mr-8 hover:opacity-80"
+                            className="text-white hover:opacity-80 mr-4 mb-4"
                             style={{ backgroundColor: '#FC6D26' }}
                             onClick={goToGitLab}
                         >
@@ -76,7 +76,7 @@ export function TheShopMasterPopup({ open, setOpen }: TheShopMasterPopupProps) {
                         </Button>
                         <Button
                             placeholder={""}
-                            className="text-white mr-8 hover:opacity-80"
+                            className="text-white hover:opacity-80 mr-4 mb-4"
                             style={{ backgroundColor: '#0A66C2' }}
                             onClick={goToWebsite}
                         >
@@ -86,7 +86,7 @@ export function TheShopMasterPopup({ open, setOpen }: TheShopMasterPopupProps) {
                         </Button>
                         <Button
                             placeholder={""}
-                            className="text-white mr-8 hover:opacity-80"
+                            className="text-white hover:opacity-80 mr-4 mb-4"
                             style={{ backgroundColor: '#000000' }}
                             onClick={goToAppleStore}
                         >
@@ -96,7 +96,7 @@ export function TheShopMasterPopup({ open, setOpen }: TheShopMasterPopupProps) {
                         </Button>
                         <Button
                             placeholder={""}
-                            className="text-white hover:opacity-80"
+                            className="text-white hover:opacity-80 mr-4 mb-4"
                             style={{ backgroundColor: '#3DDC84' }}
                             onClick={goToPlayStore}
                         >

@@ -4,9 +4,18 @@ This is the website where you have an overview of all TheMasterCollection projec
 
 ## Implemented projects
 
-- none
+- TheRouteMaster
+- TheShopMaster
 
 ## Implementation in progress
 
-- TheRouteMaster
-- TheShopMaster
+- none
+
+## Missing features
+
+- Contact form does not send mails yet
+- TheShopMaster links not working because we do not have the download links yet
+
+## Bugs
+
+- Mobile version of the big logos on the landing page

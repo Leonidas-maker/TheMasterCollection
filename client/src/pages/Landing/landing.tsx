@@ -5,10 +5,11 @@ import { Footer } from "../../components/footer";
 import { CarouselProducts } from "../../components/carousel";
 
 function Landing() {
+    //! Add Popup informations
     const { t } = useTranslation();
 
     return (
-        <div className="h-screen">
+        <div className="h-screen bg-white dark:bg-gray-900">
             <Navbar />
             <CarouselProducts />
             <Footer />

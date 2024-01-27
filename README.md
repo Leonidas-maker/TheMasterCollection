@@ -18,4 +18,4 @@ This is the website where you have an overview of all TheMasterCollection projec
 
 ## Bugs
 
-- Mobile version of the big logos on the landing page
+- Nothing found yet

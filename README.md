@@ -4,8 +4,8 @@ This is the website where you have an overview of all TheMasterCollection projec
 
 ## Implemented projects
 
-- TheRouteMaster
-- TheShopMaster
+- TheRouteMaster - Overhaul in Progress
+- TheShopMaster - Paused
 
 ## Implementation in progress
 
